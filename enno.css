@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+ body{
+
+    height: 1400px;
+    width: 100%;
+   
+
+} 
+ .whole{
+   width: 99%;
+ }
+
+ 
+ 
+   
+
+
+.navbar{
+    box-shadow: rgb(128,118,110)0px 20px 30px -12px;
+    
+  
+}
+
+.navbar-nav{
+    margin-left: auto;
+   
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.4;
+    margin-left: 10%;
+}
+.button
+{
+    background-color: white;
+    color: grey;
+  border-color: grey;
+}
+
+ .container.about{
+ position: relative;
+ top: 80px; 
+ 
+  
+ }
+ .get-btn{
+    box-shadow: rgba(50,255, 84,1.50) 0px 10px 36px 0px;
+
+ }
+ .watch:hover{
+    color: rgb(12, 245, 51) ;
+ }
+ .motionpic{
+    position:relative;
+    animation-name: topbottom;
+   animation-duration: 6s;
+   transition:all ease-in-out;
+   animation-iteration-count: infinite;
+ }
+ @keyframes topbottom{
+    0%{top:0px;}
+    50%{top: 28px;}
+    100%{top: 0px;}
+ }
+ 
+ 
+
+   .card2{
+   width: 100%; 
+ }
+ .card{
+  border: none;
+    background-color: rgb(230, 227, 227);
+ }
+ .card:hover{
+   border: 1px solid rgb(197, 195, 195);
+ }
+ .card:hover h6{
+    color:rgb(4, 211, 4);
+ }
+ .card i{
+    color: rgb(40, 194, 40);
+ }
+ .check p i {
+    color: rgb(34, 192, 34);
+ }
+.number h2{
+    color:  rgb(34, 192, 34);
+  
+}
+/* service */
+.service{
+   background-color: rgb(235, 233, 233);
+}
+ .behind{
+   opacity: 0.3;
+   font-size: 45px;
+   text-align: center;
+  position: relative;
+}
+ .front{
+   position: absolute;
+   left: 49.5%;
+   transform: translate(-45%,-90%);
+   
+  
+}
+ .subtext{
+   text-align: center;
+  padding-top: 40px;
+   font-style: italic;
+}
+/* gallery */
+
+
+.behind1{
+   opacity: 0.2;
+   font-size: 45px;
+   text-align: center;
+  position: relative;
+}
+  .front1{
+   position: absolute;
+   left: 49.5%;
+   transform: translate(-45%,-90%);
+  }
+  .subtext1{
+   text-align: center;
+  padding-top: 20px;
+   font-style: italic;
+}
+.links{
+   display: flex;
+  
+   justify-content: center;
+   
+}
+.link1{
+   color: rgb(14, 187, 14) ;
+  padding: 0 1rem;
+}
+.link1:hover{
+   color: black;
+}
+
+.links .b{
+  padding: 0 1rem;
+}
+.links .b:hover{
+   color:rgb(14, 187, 14)  ;
+}
+
+.pop-div{
+    position: relative;
+     width: 100%;
+
+  
+  
+}
+.pop-div-card
+  {
+ 
+   position: absolute;
+   bottom: 5%;
+   left: 7.5%;
+   width: 85%;
+   opacity: 0;
+   border-radius: 3%;
+  
+   border-top: 1px solid rgb(221, 220, 220);
+   border-bottom: 1px solid rgb(221, 220, 220);
+   
+   
+
+}
+ .pop-div:hover .pop-div-card{
+  opacity: 0.5; 
+  background-color: rgb(255, 255, 255);
+animation-name: popup;
+animation-duration: 1s;
+
+transition:all ease-in-out;
+
+} 
+@keyframes popup {
+   0%{ bottom: 10px;}
+   100%{bottom: 30px;}
+} 
+/* testimonials */
+.testimonials{
+   background-color: #dadadd;
+   padding: 64px 0;
+}
+/* .main-box
+{
+   width: 400px;
+} */
+.wh-card{
+   background-color: #ffffff;
+   padding: 20px 20px 60px 20px;
+   border-radius: 8px;
+}
+.prof img{
+   clip-path: circle(40%); 
+   border-radius: 100%;
+   width: 80px !important;
+   border: 4px solid #faf9f9;
+}
+.prof{
+   margin-top: -40px;
+   margin-left: 20px;
+}
+.testimonials .behind{
+   opacity: 0.3;
+   font-size: 45px;
+   text-align: center;
+  position: relative;
+}
+.testimonials .front{
+   position: absolute;
+   left: 49.5%;
+   transform: translate(-45%,-90%);
+   
+  
+}
+.testimonials .subtext{
+   text-align: center;
+  padding-top: 40px;
+   font-style: italic;
+}
+/* team */
+.team{
+  background-color:#d3cfcf;
+}
+/* contact */
+.details{
+   border-top: 2px solid green;
+   border-bottom:2px solid green ;
+}
+.detail1{
+  border-bottom:2px solid green;
+  border-top:2px solid green;
+   
+}
